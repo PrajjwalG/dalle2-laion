@@ -15,14 +15,14 @@
                 "unet_numbers": [2],
                 "load_model_from": {
                     "load_type": "url",
-                    "path": "https://huggingface.co/laion/DALLE2-PyTorch/raw/main/upsampler/1024/v1.0.3/latest.pth",
+                    "path": "https://huggingface.co/Veldrovive/upsamplers/resolve/main/working/latest.pth",
                     "cache_dir": "./models",
                     "filename_override": "second_decoder.pth"
                 },
                 "load_config_from": {
                     "load_type": "url",
-                    "path": "https://huggingface.co/laion/DALLE2-PyTorch/raw/main/upsampler/1024/v1.0.3/decoder_config.json",
-                    "checksum_file_path": "https://huggingface.co/laion/DALLE2-PyTorch/raw/main/upsampler/1024/v1.0.3/decoder_config.json",
+                    "path": "https://huggingface.co/Veldrovive/upsamplers/raw/main/working/decoder_config.json",
+                    "checksum_file_path": "https://huggingface.co/Veldrovive/upsamplers/raw/main/working/decoder_config.json",
                     "cache_dir": "./models",
                     "filename_override": "second_decoder_config.json"
                 }
