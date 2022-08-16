@@ -6,7 +6,7 @@
                 "default_cond_scale": [1.7],
                 "load_model_from": {
                     "load_type": "url",
-                    "path": "https://huggingface.co/laion/DALLE2-PyTorch/resolve/main/decoder/v1.0.2/latest.pth",
+                    "path": "https://huggingface.co/laion/DALLE2-PyTorch/raw/main/decoder/3B_fp16/latest.pth",
                     "cache_dir": "./models",
                     "filename_override": "new_decoder.pth"
                 }
